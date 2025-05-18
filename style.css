@@ -1,3 +1,8 @@
+@font-face {
+    font-family: new-rocker;
+    src: url(/NewRocker-Regular.ttf);
+}
+
 body {
     background-color: #333;
     height: 100vh; /* Make body take full viewport height */
@@ -17,11 +22,11 @@ h1 {
     color: #fff;
     font-size: 5em;
     letter-spacing: 8px;
-    font-family: 'Press Start 2P';
     font-weight: 400;
     margin: 0;
     line-height: 0;
     animation: glitch1 2.5s infinite;
+    font-family: new-rocker;
 }
 
 /* Rest of your existing CSS remains the same */
